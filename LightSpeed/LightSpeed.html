@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="../css/LightSpeed.css" type="text/css" media="screen">
+	<script src="../js/Game.js"></script>
+	</head>
+	<body>
+	<h1 id="game-title"> LIGHTSPEED </h1>
+	<div id="grid">
+		
+		<div id="grid-row">
+		<div id="grid-cell">
+			<div id="c1" class="off" ></div>
+		</div>
+		<div id="grid-cell">
+			<div id="c2" class="off" ></div>
+		</div>
+		<div id="grid-cell">
+			<div id="c3" class="off" ></div>
+		</div>
+		</div>
+		<div id="grid-row">
+		<div id="grid-cell">
+			<div id="c4" class="off" ></div>
+		</div>
+		<div id="grid-cell">
+			<div id="c5" class="off" ></div>
+		</div>
+		<div id="grid-cell">
+			<div id="c6" class="off" ></div>
+		</div>
+		</div>
+		<div id="grid-row">
+		<div id="grid-cell">
+			<div id="c7" class="off" ></div>
+		</div>
+		<div id="grid-cell">
+			<div id="c8" class="off" ></div>
+		</div>
+		<div id="grid-cell">
+			<div id="c9" class="off" ></div>
+		</div>
+		</div>
+		
+	</div>
+	
+	<div id="score" ></div>
+	<div id="strikes" ></div>
+	
+	<div id="game-over-screen">
+		<h1>Game Over</h1>
+		<div id="final-score"></div>
+		<div id="retry"><a href="../LightSpeed/LightSpeed.html"> RETRY </a></div>
+	</div>
+
+	
+		<!-- <canvas id="Grid" width="700" height="500" style="border: 1px solid black;"></canvas> 
+		<script>
+			var g = document.getElementById("Grid");
+			var ctx = g.getContext("2d");
+			ctx.lineWidth= 4;
+			var centerx = g.width / 2;
+			var centery = g.height / 2;
+			var radius = 50;
+			
+			ctx.fillStyle= 'blue';
+			ctx.beginPath();
+			ctx.arc(centerx,centery,radius,0,2*Math.PI);
+			ctx.closePath();
+			ctx.stroke();
+			ctx.fill();
+			
+			ctx.fillStyle= 'red';
+			ctx.beginPath();
+			ctx.arc(centerx / 2,centery,radius,0,2*Math.PI);
+			ctx.closePath();
+			ctx.stroke();
+			ctx.fill();
+			
+			ctx.fillStyle= 'green';
+			ctx.beginPath();
+			ctx.arc(centerx * 1.5,centery,radius,0,2*Math.PI);
+			ctx.closePath();
+			ctx.stroke();
+			ctx.fill();
+			
+			ctx.fillStyle= 'yellow';
+			ctx.beginPath();
+			ctx.arc(centerx,centery / 2,radius,0,2*Math.PI);
+			ctx.closePath();
+			ctx.stroke();
+			ctx.fill();
+			
+			ctx.fillStyle= 'purple';
+			ctx.beginPath();
+			ctx.arc(centerx / 2,centery / 2,radius,0,2*Math.PI);
+			ctx.closePath();
+			ctx.stroke();
+			ctx.fill();
+			
+			ctx.fillStyle= 'orange';
+			ctx.beginPath();
+			ctx.arc(centerx * 1.5,centery / 2,radius,0,2*Math.PI);
+			ctx.closePath();
+			ctx.stroke();
+			ctx.fill();
+			
+			ctx.fillStyle= 'pink';
+			ctx.beginPath();
+			ctx.arc(centerx,centery * 1.5,radius,0,2*Math.PI);
+			ctx.closePath();
+			ctx.stroke();
+			ctx.fill();
+			
+			ctx.fillStyle= '16F4DE';
+			ctx.beginPath();
+			ctx.arc(centerx / 2,centery * 1.5,radius,0,2*Math.PI);
+			ctx.closePath();
+			ctx.stroke();
+			ctx.fill();
+			
+			ctx.fillStyle= '1ED749';
+			ctx.beginPath();
+			ctx.arc(centerx * 1.5,centery * 1.5,radius,0,2*Math.PI);
+			ctx.closePath();
+			ctx.stroke();
+			ctx.fill();
+		</script> -->
+	</body>
+</html>
