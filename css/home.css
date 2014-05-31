@@ -1,0 +1,57 @@
+/* CSS Document */
+
+	body{
+	background: -webkit-linear-gradient(black, #0000FF, black); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(black, #0000FF, black); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(black, #0000FF, black); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(black, #1C1C1C,#1C1C1C,#0A0A2A, #0000FF); /* Standard syntax (must be last) */
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	}
+	
+	#game-title{
+	color: white;
+	left: 35%;
+	top: 15%;
+	letter-spacing: 10px;
+	font-size: 48px;
+	position: fixed;
+	font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	}
+	
+	#enter{
+	font-size: 48px;
+	color: white;
+	left: 38%;
+	position: fixed;
+	background-color: rgba(0,0,0,.7);
+	width: 300px;
+	height: 110px;
+	text-align: center;
+	border-radius: 40%;
+	padding-top: 40px;
+	top: 40%;
+	}
+	
+	#enter a{
+	text-decoration: none; 
+	color: white;
+	font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	}
+	
+	#instructions {
+	position: fixed;
+	left: 40%;
+	top: 70%;
+	color: white;
+	}
+	
+	#instructions h1{
+	font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	}
+	
+	#instructions li {
+	font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	list-style-type: none;
+	}
