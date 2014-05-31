@@ -1,8 +1,9 @@
 LightSpeed
 ==========
 
-Welcome to Light Speed. This is a game I am currently developing for mobile devices. I posted
-code here for a web version as well as screenshots to demonstate how the game is played.
+Welcome to Light Speed. This is a game I am currently developing for mobile devices just for fun.
+This is a web version. 
+Here are some screenshots of the game.
 
 
 ScreenShots
