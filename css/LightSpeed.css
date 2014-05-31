@@ -1,0 +1,195 @@
+/* CSS Document */
+		
+		body{
+		background: -webkit-linear-gradient(black, #0000FF, black); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(black, #0000FF, black); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(black, #0000FF, black); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(black, #1C1C1C,#1C1C1C,#0A0A2A, #0000FF); /* Standard syntax (must be last) */
+		height: 100%;
+		background-repeat: no-repeat;
+		background-attachment:fixed;
+		}
+		
+		#game-title {
+		text-align: center;
+		font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+		color: white;
+		width: auto;
+		
+		}
+		
+		#c1 { 
+		width: 70px;
+		height: 70px;
+		-moz-border-radius: 50%; 
+		-webkit-border-radius: 50%; 
+		border-radius: 50%;
+		border: solid white;
+		}
+		
+		#c2 { 
+		width: 70px;
+		height: 70px;
+		-moz-border-radius: 50%; 
+		-webkit-border-radius: 50%; 
+		border-radius: 50%;
+		border: solid white;
+		}
+		
+		#c3 { 
+		width: 70px;
+		height: 70px;
+		-moz-border-radius: 50%; 
+		-webkit-border-radius: 50%; 
+		border-radius: 50%;
+		border: solid white;
+		}
+		
+		#c4 { 
+		width: 70px;
+		height: 70px;
+		-moz-border-radius: 50%; 
+		-webkit-border-radius: 50%; 
+		border-radius: 50%;
+		border: solid white;
+		}
+		
+		#c5 { 
+		width: 70px;
+		height: 70px;
+		-moz-border-radius: 50%; 
+		-webkit-border-radius: 50%; 
+		border-radius: 50%;
+		border: solid white;
+		}
+		
+		#c6 { 
+		width: 70px;
+		height: 70px;
+		-moz-border-radius: 50%; 
+		-webkit-border-radius: 50%; 
+		border-radius: 50%;
+		border: solid white;
+		}
+		
+		#c7 { 
+		width: 70px;
+		height: 70px;
+		-moz-border-radius: 50%; 
+		-webkit-border-radius: 50%; 
+		border-radius: 50%;
+		border: solid white;
+		}
+		
+		#c8 { 
+		width: 70px;
+		height: 70px;
+		-moz-border-radius: 50%; 
+		-webkit-border-radius: 50%; 
+		border-radius: 50%;
+		border: solid white;
+		}
+		
+		#c9 { 
+		width: 70px;
+		height: 70px;
+		-moz-border-radius: 50%; 
+		-webkit-border-radius: 50%; 
+		border-radius: 50%;
+		border: solid white;
+		}
+		
+		#grid {
+		height: 400px;
+		width: 400px;
+		border: solid;
+		background-color: black;
+		left: 35%;
+		top: 20%;
+		position: fixed;
+		}
+			
+		
+		#grid-row {
+		border: solid grey;
+		height: 32%;
+		width: auto;
+		
+		}
+		
+		#grid-cell{
+		display: inline-block;
+		margin-bottom: 5%;
+		margin-top: 5%;
+		margin-left: 10%;
+		
+		}
+		
+		#score{
+		float: left;
+		font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+		color: white;
+		}
+		
+		#final-score{
+		margin-left: 28%;
+		font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+		color: white;
+		font-size: 24px;
+		}
+		
+		#strikes{
+		float: right;
+		font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+		color: white;
+		}
+		
+		#game-over-screen {
+		background-color: rgba(0,0,0,.9);
+		position: absolute;
+		height: 500px;
+		width: 500px;
+		left: 31.5%;
+		display: none;
+		}
+		
+		#game-over-screen h1 {
+		font-size: 40px;
+		color: white;
+		margin-top: 25%;
+		text-align: center;
+		font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+		}
+		
+		#retry {
+		margin-top: 10%;
+		}
+		
+		#retry a {
+		text-decoration: none;
+		letter-spacing: 2px;
+		text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+		text-shadow: 0 0 0.2em #87F, 0 0 0.2em #0000FF, 0 0 0.2em #0000FF;
+		color: white;
+		margin-left: 28%;
+		font-size: 36px;
+		}
+		
+		.on{
+		background: #0000FF;
+		}
+		
+		.off{
+		background: white;
+		}
